@@ -30,7 +30,7 @@ mochawesome-merge.
 
 ```bash
 ## clone this repo to a local directory
-git clone https://github.com/<your-username/cypress_bdd_ui_api_automation.git
+git clone https://github.com/<your-username>/cypress_bdd_ui_api_automation.git
 
 ## cd into the cloned repo
 cd cypress_bdd_ui_api_automation
