@@ -10,7 +10,7 @@
     "generate-reports": "marge cypress/report/output.json --reportDir ./ --inline",
     "test-report": "npm run test && npm run combine-reports &&  npm run generate-reports"
   },
-  "author": "Gagan",
+  "author": "Gagan Chikkegowda",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^5.5.0",

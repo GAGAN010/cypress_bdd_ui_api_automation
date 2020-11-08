@@ -50,6 +50,13 @@ typings/
 # Optional npm cache directory
 .npm
 
+#  mp4 cache directory
+*.mp4
+
+#  images cache directory
+*.png
+*.jpeg
+
 # Optional eslint cache
 .eslintcache
 
