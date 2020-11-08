@@ -1,28 +1,36 @@
 # Automation UI and API testing framework with Cypress
 
-> Gagan Chikkegowda
+Gagan Chikkegowda
 
-> This repo contains an example with the tests written in Cypress using Cucumber and POM
-> This was done on MacOS.
-> I have used Visual Studio code for coding purposes.
-> I have Github Desktop installed.
-> I have Node installed
+This repo contains an example with the tests written in Cypress using Cucumber and POM
+
+This was done on MacOS.
+
+I have used Visual Studio code for coding purposes.
+
+I have Github Desktop installed.
+
+I have Node installed.
 
 ### Dependencies:
 
-Node Modules
+Node Modules.
 
-> cypress
-> cypress-cucumber-preprocessor
-> mochawesome-report-generator
-> mochawesome
-> mochawesome-merge
+cypress.
+
+cypress-cucumber-preprocessor.
+
+mochawesome-report-generator.
+
+mochawesome.
+
+mochawesome-merge.
 
 ### How to:
 
 ```bash
 ## clone this repo to a local directory
-git clone https://github.com/<your-username>/cypress_bdd_ui_api_automation.git
+git clone https://github.com/<your-username/cypress_bdd_ui_api_automation.git
 
 ## cd into the cloned repo
 cd cypress_bdd_ui_api_automation
@@ -50,6 +58,7 @@ npm run test-report
 ## Additions/improvements:
 
 Continuous Integration
+
 Random Data Geneartion
 
 ## Reference:
