@@ -53,7 +53,7 @@ npm run generate-reports
 ## run below command to run the test headless, combine reports and generate reports
 npm run test-report
 
-## running on different browsers(Browser should be installed on the machine executing tests)
+## running on different browsers(selected Browser should be installed on the machine executing tests)
 npm run test-on-firefox
 npm run test-on-chrome
 

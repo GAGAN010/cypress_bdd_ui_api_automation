@@ -12,7 +12,8 @@
     "generate-reports": "marge cypress/report/output.json --reportDir cypress/report/html_simple/ --inline",
     "test-report": "npm run test && npm run combine-reports &&  npm run generate-reports",
     "build": "node cypress/support/cucumber.js",
-    "generate-cucumber-report": "npm run-script build"
+    "generate-cucumber-report": "npm run-script build",
+    "test-parallel": "cypress run --record --parallel"
   },
   "author": "Gagan Chikkegowda",
   "license": "ISC",
