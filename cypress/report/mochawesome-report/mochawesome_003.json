@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-11-08T09:49:53.047Z",
+    "end": "2020-11-08T09:50:04.392Z",
+    "duration": 11345,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "091dd756-e04a-4c91-b37d-552d20354ec2",
+      "title": "",
+      "fullFile": "cypress/integration/caluclatebp.feature",
+      "file": "cypress/integration/caluclatebp.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "aeb2fe76-543b-4929-a2d6-a421fdf1bd28",
+          "title": "Caluclating Home Loan Borrow Power",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Get Home Loan Borrow Power (example #1)",
+              "fullTitle": "Caluclating Home Loan Borrow Power Get Home Loan Borrow Power (example #1)",
+              "timedOut": null,
+              "duration": 6774,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "c571cde4-e8d3-4ce6-a8b0-2baedc143474",
+              "parentUUID": "aeb2fe76-543b-4929-a2d6-a421fdf1bd28",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify wether Start over button resets the form for a Single Applicant (example #1)",
+              "fullTitle": "Caluclating Home Loan Borrow Power Verify wether Start over button resets the form for a Single Applicant (example #1)",
+              "timedOut": null,
+              "duration": 4442,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "74cc9300-cfbb-4832-9aad-623fcd28999a",
+              "parentUUID": "aeb2fe76-543b-4929-a2d6-a421fdf1bd28",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c571cde4-e8d3-4ce6-a8b0-2baedc143474",
+            "74cc9300-cfbb-4832-9aad-623fcd28999a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11216,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "mochaFile": "test-results/test-output-[hash].xml",
+        "reportDir": "cypress/report/mochawesome-report"
+      },
+      "version": "5.1.0"
+    }
+  }
+}

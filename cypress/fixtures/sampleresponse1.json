@@ -1,0 +1,13 @@
+{
+  "ID": "5fa7bff6cca8ce000188bf73",
+  "updated_at": "2020-11-08T09:52:54.001115957Z",
+  "created_at": "2020-11-08T09:52:54.001115863Z",
+  "user_id": "5fa653cf3da20c00074f2f0d",
+  "external_id": "DEMO_TEST002",
+  "name": "Team Demo Test Station 002",
+  "latitude": 44.44,
+  "longitude": -122.44,
+  "altitude": 111,
+  "rank": 10,
+  "source_type": 5
+}

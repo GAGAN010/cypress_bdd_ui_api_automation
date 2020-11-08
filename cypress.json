@@ -1,0 +1,14 @@
+{
+  "baseUrl": "https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/",
+  "chromeWebSecurity": false,
+  "ignoreTestFiles": ["*.js", "*.md"],
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true,
+    "mochaFile": "test-results/test-output-[hash].xml",
+    "reportDir": "cypress/report/mochawesome-report"
+  },
+  "testFiles": "**/*.feature"
+}

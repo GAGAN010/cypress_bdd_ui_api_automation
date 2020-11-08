@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-11-08T09:50:09.182Z",
+    "end": "2020-11-08T09:50:12.513Z",
+    "duration": 3331,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0c6d1355-c91e-490e-a38c-30cb32f4c34b",
+      "title": "",
+      "fullFile": "cypress/integration/registerstation.feature",
+      "file": "cypress/integration/registerstation.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "01356856-a635-4dda-8bf6-3e15610d011c",
+          "title": "Register Station Positive",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate an attempt to register a weather station with a correct API key (example #1)",
+              "fullTitle": "Register Station Positive Validate an attempt to register a weather station with a correct API key (example #1)",
+              "timedOut": null,
+              "duration": 768,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "43c3b4de-c88c-4333-b944-53a06ab6125b",
+              "parentUUID": "01356856-a635-4dda-8bf6-3e15610d011c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate an attempt to register a weather station with a correct API key (example #2)",
+              "fullTitle": "Register Station Positive Validate an attempt to register a weather station with a correct API key (example #2)",
+              "timedOut": null,
+              "duration": 509,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "91132d0c-81d2-4f67-8f9b-d5764632ad3f",
+              "parentUUID": "01356856-a635-4dda-8bf6-3e15610d011c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify that the stations were successfully stored in the DB and values are the same as specified in the registration request. (example #1)",
+              "fullTitle": "Register Station Positive Verify that the stations were successfully stored in the DB and values are the same as specified in the registration request. (example #1)",
+              "timedOut": null,
+              "duration": 1020,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "aabe3d82-51be-491a-8e37-ae55d2018682",
+              "parentUUID": "01356856-a635-4dda-8bf6-3e15610d011c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify that the stations were successfully stored in the DB and values are the same as specified in the registration request. (example #2)",
+              "fullTitle": "Register Station Positive Verify that the stations were successfully stored in the DB and values are the same as specified in the registration request. (example #2)",
+              "timedOut": null,
+              "duration": 1010,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "9c2d6263-691a-4331-a60e-45320fe88024",
+              "parentUUID": "01356856-a635-4dda-8bf6-3e15610d011c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "43c3b4de-c88c-4333-b944-53a06ab6125b",
+            "91132d0c-81d2-4f67-8f9b-d5764632ad3f",
+            "aabe3d82-51be-491a-8e37-ae55d2018682",
+            "9c2d6263-691a-4331-a60e-45320fe88024"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3307,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "mochaFile": "test-results/test-output-[hash].xml",
+        "reportDir": "cypress/report/mochawesome-report"
+      },
+      "version": "5.1.0"
+    }
+  }
+}

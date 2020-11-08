@@ -1,0 +1,58 @@
+{
+  "body": {
+    "cod": 401,
+    "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
+  },
+  "headers": {
+    "server": "openresty",
+    "date": "Sun, 08 Nov 2020 02:02:13 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "107",
+    "connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-methods": "GET, POST, PUT, DELETE"
+  },
+  "status": 401,
+  "statusText": "Unauthorized",
+  "isOkStatusCode": false,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Content-Type": "application/json",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/5.5.0 Chrome/85.0.4183.121 Electron/10.1.5 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate",
+    "content-length": 118
+  },
+  "requestBody": "{\"external_id\":\"DEMO_TEST001\",\"name\":\"Team Demo Test Station 001\",\"latitude\":33.33,\"longitude\":-122.43,\"altitude\":222}",
+  "duration": 201,
+  "allRequestResponses": [
+    {
+      "Request Body": "{\"external_id\":\"DEMO_TEST001\",\"name\":\"Team Demo Test Station 001\",\"latitude\":33.33,\"longitude\":-122.43,\"altitude\":222}",
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Content-Type": "application/json",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/5.5.0 Chrome/85.0.4183.121 Electron/10.1.5 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "content-length": 118
+      },
+      "Request URL": "http://api.openweathermap.org/data/3.0/stations?appid=",
+      "Response Body": {
+        "cod": 401,
+        "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
+      },
+      "Response Headers": {
+        "server": "openresty",
+        "date": "Sun, 08 Nov 2020 02:02:13 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "107",
+        "connection": "keep-alive",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-methods": "GET, POST, PUT, DELETE"
+      },
+      "Response Status": 401
+    }
+  ]
+}
