@@ -53,13 +53,37 @@ npm run generate-reports
 ## run below command to run the test headless, combine reports and generate reports
 npm run test-report
 
+## running on different browsers(Browser should be installed on the machine executing tests)
+npm run test-on-firefox
+npm run test-on-chrome
+
+## Output
+### Mocha Report
+cd cypress/report/html_simple/
+open output.html
+
+### Cucumber Report
+npm run generate-cucumber-report
+
 ```
+
+## Output HTML
+
+Mocha Report Directory: cypress/report/html_simple/output.html
+
+Cucmber Report: cypress/report/html_simple/cucumber_report.html
 
 ## Additions/improvements:
 
 Continuous Integration
 
 Random Data Geneartion
+
+Configuration improvements
+
+Custom command incorporation
+
+Mochawesome reports could be improved
 
 ## Reference:
 

@@ -7,7 +7,7 @@
     "overwrite": false,
     "html": false,
     "json": true,
-    "mochaFile": "test-results/test-output-[hash].xml",
+    "mochaFile": "cypress/report/test-output-[hash].xml",
     "reportDir": "cypress/report/mochawesome-report"
   },
   "testFiles": "**/*.feature"

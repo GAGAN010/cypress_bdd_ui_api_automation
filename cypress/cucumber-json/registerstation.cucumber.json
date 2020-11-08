@@ -1,0 +1,122 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Register Station Positive",
+    "line": 1,
+    "id": "register-station-positive",
+    "tags": [],
+    "uri": "registerstation.feature",
+    "elements": [
+      {
+        "id": "register-station-positive;validate-an-attempt-to-register-a-weather-station-with-a-correct-api-key",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Validate an attempt to register a weather station with a correct API key",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user attempt to register a weather station with a correct API key \"/samplerequest\",\"/stations\",\"21af2e8cd45ce60ed8d5be73de452089\",\"registerStationSuccess\"",
+            "result": {
+              "status": "passed",
+              "duration": 8090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "response body should contain data from request body \"/samplerequest\" and write response to \"sampleresponse\"",
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "verify that HTTP response code is 201",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "response body should be saved in a \"sampleresponse\" file",
+            "result": {
+              "status": "passed",
+              "duration": 1378000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "register-station-positive;verify-that-the-stations-were-successfully-stored-in-the-db-and-values-are-the-same-as-specified-in-the-registration-request.",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Verify that the stations were successfully stored in the DB and values are the same as specified in the registration request.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "the user attempt to register a weather station with a correct API key \"/samplerequest1\",\"/stations\",\"21af2e8cd45ce60ed8d5be73de452089\",\"registerStationSuccess\"",
+            "result": {
+              "status": "passed",
+              "duration": 13950000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "response body should contain data from request body \"/samplerequest1\" and write response to \"sampleresponse1\"",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "response body should be saved in a \"sampleresponse1\" file",
+            "result": {
+              "status": "passed",
+              "duration": 530000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user should get the stationID from the \"sampleresponse1\"",
+            "result": {
+              "status": "passed",
+              "duration": 1890000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Verify that the stations are successfully and accurately stored in the DB using stationID using \"/samplerequest1\" and \"21af2e8cd45ce60ed8d5be73de452089\"",
+            "result": {
+              "status": "passed",
+              "duration": 550000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

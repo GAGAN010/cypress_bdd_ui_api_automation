@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2020-11-08T09:37:49.463Z",
-    "end": "2020-11-08T09:38:00.340Z",
-    "duration": 10877,
+    "start": "2020-11-08T14:14:14.411Z",
+    "end": "2020-11-08T14:14:38.660Z",
+    "duration": 24249,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,27 +18,27 @@
   },
   "results": [
     {
-      "uuid": "1849eae5-5559-4f20-87bd-bfc8b388b484",
+      "uuid": "15bc9522-97cd-4e08-8080-b4b79b7c0bcd",
       "title": "",
-      "fullFile": "cypress/integration/caluclatebp.feature",
-      "file": "cypress/integration/caluclatebp.feature",
+      "fullFile": "cypress/integration/registerstation.feature",
+      "file": "cypress/integration/registerstation.feature",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "db33b4c0-ecd1-435e-9721-a5060b49d522",
-          "title": "Caluclating Home Loan Borrow Power",
+          "uuid": "91435626-ac08-48db-b2f6-14b639f622be",
+          "title": "Register Station Positive",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "Get Home Loan Borrow Power (example #1)",
-              "fullTitle": "Caluclating Home Loan Borrow Power Get Home Loan Borrow Power (example #1)",
+              "title": "Validate an attempt to register a weather station with a correct API key (example #1)",
+              "fullTitle": "Register Station Positive Validate an attempt to register a weather station with a correct API key (example #1)",
               "timedOut": null,
-              "duration": 7352,
+              "duration": 7262,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,16 +47,16 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "91b9b91f-fd41-413b-8ce4-cd8ba0b73a3c",
-              "parentUUID": "db33b4c0-ecd1-435e-9721-a5060b49d522",
+              "uuid": "cac13a50-f0bb-4c67-a6f2-70510892d0cc",
+              "parentUUID": "91435626-ac08-48db-b2f6-14b639f622be",
               "isHook": false,
               "skipped": false
             },
             {
-              "title": "Verify wether Start over button resets the form for a Single Applicant (example #1)",
-              "fullTitle": "Caluclating Home Loan Borrow Power Verify wether Start over button resets the form for a Single Applicant (example #1)",
+              "title": "Verify that the stations were successfully stored in the DB and values are the same as specified in the registration request. (example #1)",
+              "fullTitle": "Register Station Positive Verify that the stations were successfully stored in the DB and values are the same as specified in the registration request. (example #1)",
               "timedOut": null,
-              "duration": 3418,
+              "duration": 7633,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "a79b8da1-7628-495e-a3d4-3b378b6ce0e5",
-              "parentUUID": "db33b4c0-ecd1-435e-9721-a5060b49d522",
+              "uuid": "18ed85c8-acb0-4b97-b9e0-1cd0c1941811",
+              "parentUUID": "91435626-ac08-48db-b2f6-14b639f622be",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "91b9b91f-fd41-413b-8ce4-cd8ba0b73a3c",
-            "a79b8da1-7628-495e-a3d4-3b378b6ce0e5"
+            "cac13a50-f0bb-4c67-a6f2-70510892d0cc",
+            "18ed85c8-acb0-4b97-b9e0-1cd0c1941811"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 10770,
+          "duration": 14895,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -116,7 +116,7 @@
         "overwrite": false,
         "html": false,
         "json": true,
-        "mochaFile": "test-results/test-output-[hash].xml",
+        "mochaFile": "cypress/report/test-output-[hash].xml",
         "reportDir": "cypress/report/mochawesome-report"
       },
       "version": "5.1.0"
