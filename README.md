@@ -27,6 +27,7 @@ mochawesome.
 mochawesome-merge.
 
 ### How to:
+If you want to experiment with running this project, you'll need to fork it first.
 After forking this project in Github, run these commands:
 ```bash
 ## clone this repo to a local directory
