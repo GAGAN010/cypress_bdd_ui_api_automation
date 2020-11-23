@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
-    "test-on-chrome": "cypress run --browser firefox",
+    "test-on-chrome": "cypress run --browser chrome",
     "test-on-firefox": "cypress run --browser firefox",
     "open-test-runner": "cypress open",
     "combine-reports": "mochawesome-merge cypress/report/mochawesome-report/*.json > cypress/report/output.json",
